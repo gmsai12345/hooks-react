@@ -62,3 +62,14 @@ export default function hook() {
     </div>
   );
 }
+import { useEffect } from 'react';
+
+function Example() {
+  useEffect(() => {
+    // Perform a side effect here
+  });
+
+  return (
+    // component JSX goes here
+  );
+}
