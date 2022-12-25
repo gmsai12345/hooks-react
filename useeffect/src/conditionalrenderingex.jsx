@@ -11,3 +11,6 @@ if signup = true paste signup else logout
                             </label>
                         )}
                    // if you want to show many output we can put it bracket as above
+
+            {isSignup && (<AboutAuth/>)} 
+// we can also import the function as like this by importing it and then doing it 
