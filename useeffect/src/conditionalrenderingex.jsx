@@ -3,3 +3,11 @@
 really important for in between condition rendering so that paste what you want
 <button type='submit' className='auth-btn'>{isSignup ? "Signup" : "Log out"}</button>
 if signup = true paste signup else logout
+{isSignup && (
+                            <label htmlFor='check'>
+                                <input type="checkbox" id = "check"/>
+                                <p>Opt-in to recieve occasional, product updates, user research invitations, company announcements, and digests</p>
+
+                            </label>
+                        )}
+                   // if you want to show many output we can put it bracket as above
